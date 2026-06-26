@@ -1,0 +1,1 @@
+.profile-header.data-v-590fb007{display:flex;align-items:center;gap:24rpx}.avatar.data-v-590fb007{width:120rpx;height:120rpx;border-radius:50%;background:#eee}.name.data-v-590fb007{font-size:36rpx;font-weight:600}.menu-item.data-v-590fb007{padding:28rpx 0;border-bottom:1rpx solid #f0f0f0;display:flex;justify-content:space-between}.logout.data-v-590fb007{margin-top:40rpx}
