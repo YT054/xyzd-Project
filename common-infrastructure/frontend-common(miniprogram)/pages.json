@@ -1,0 +1,61 @@
+{
+  "pages": [
+    { "path": "pages/login/login", "style": { "navigationBarTitleText": "登录", "navigationStyle": "custom" } },
+    { "path": "pages/index/index", "style": { "navigationBarTitleText": "校园组队通" } },
+    { "path": "pages/group/list", "style": { "navigationBarTitleText": "群聊" } },
+    { "path": "pages/chat/list", "style": { "navigationBarTitleText": "消息中心" } },
+    { "path": "pages/profile/index", "style": { "navigationBarTitleText": "个人中心" } },
+    { "path": "pages/profile/edit", "style": { "navigationBarTitleText": "编辑资料" } },
+    { "path": "pages/activity/detail", "style": { "navigationBarTitleText": "活动详情" } },
+    { "path": "pages/activity/publish", "style": { "navigationBarTitleText": "发布活动" } },
+    { "path": "pages/activity/my-publish", "style": { "navigationBarTitleText": "我的发布" } },
+    { "path": "pages/activity/manage", "style": { "navigationBarTitleText": "报名管理" } },
+    { "path": "pages/registration/my", "style": { "navigationBarTitleText": "我的报名" } },
+    { "path": "pages/group/create", "style": { "navigationBarTitleText": "建立群聊" } },
+    { "path": "pages/group/room", "style": { "navigationBarTitleText": "群聊" } },
+    { "path": "pages/group/members", "style": { "navigationBarTitleText": "群成员" } },
+    { "path": "pages/chat/room", "style": { "navigationBarTitleText": "私信" } },
+    { "path": "pages/checkin/index", "style": { "navigationBarTitleText": "活动打卡" } },
+    { "path": "pages/checkin/my", "style": { "navigationBarTitleText": "我的打卡" } },
+    { "path": "pages/review/index", "style": { "navigationBarTitleText": "活动评价" } },
+    { "path": "pages/review/my", "style": { "navigationBarTitleText": "我的评价" } }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "校园组队通",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#f5f6fa"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#2979ff",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tab/home.png",
+        "selectedIconPath": "static/tab/home-active.png"
+      },
+      {
+        "pagePath": "pages/group/list",
+        "text": "群聊",
+        "iconPath": "static/tab/group.png",
+        "selectedIconPath": "static/tab/group-active.png"
+      },
+      {
+        "pagePath": "pages/chat/list",
+        "text": "消息",
+        "iconPath": "static/tab/chat.png",
+        "selectedIconPath": "static/tab/chat-active.png"
+      },
+      {
+        "pagePath": "pages/profile/index",
+        "text": "我的",
+        "iconPath": "static/tab/user.png",
+        "selectedIconPath": "static/tab/user-active.png"
+      }
+    ]
+  }
+}
