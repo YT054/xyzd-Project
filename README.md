@@ -1,6 +1,7 @@
 # 校园组队通 (Campus Team)
 
 👉 本作业完整源代码已上传至本仓库的 Releases 中，请自行下载。
+
 基于 **uniapp 微信小程序 + Spring Boot + MySQL 8.0.33 + Redis + Vue3/Element Plus 管理后台** 的校园活动组队平台。
 
 ## 项目结构
